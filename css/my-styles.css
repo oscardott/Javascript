@@ -139,11 +139,12 @@ body {
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
-} 
+}
 
 @media screen and (max-width: 800px) {
   .topnav{
     display: block;
+    align-items: center;
   }
 
   .topnav a:not(:first-child) {
@@ -156,6 +157,7 @@ body {
   .topnav a.icon {
     float: right;
     display: block;
+    align-items: center;
   }
   .topnav.responsive {
     position: relative;
