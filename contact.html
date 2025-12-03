@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+        <title>Oscar Wong Contact</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="css/my-styles.css">
+        <link rel="stylesheet" href="https://use.typekit.net/cuw0gvd.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="javascript/scripts.js" defer></script>
+</head>
+
+<body>
+    <header class="w3-container">  <!--w3-container adds 16 pixels of padding  around each element; w3-green makes the background green -->
+        <nav>
+            <ul class="topnav" id="myTopnav" style="padding-left: 0;">
+                <a style="text-decoration: none" class="home" href="index.html">OSCAR WONG</a>
+                <a style="text-decoration: none" href="gallery.html">Gallery</a>
+                <a style="text-decoration: none" href="about.html">About</a>
+                <a style="text-decoration: none" href="resume.html">Resume</a>
+                <a style="text-decoration: none" href="contact.html">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                </a>
+            </ul>
+        </nav>
+     </header>
+<div class="fcf-body">
+
+    <div id="fcf-form">
+    <h3 class="fcf-h3">Contact us</h3>
+
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="https://formsubmit.co/oscarwong917@gmail.com">
+        
+        <div class="fcf-form-group">
+            <label for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+        </div>
+
+        <div class="fcf-credit" id="fcf-credit">
+        Simple HTML email form provided by <a href="https://www.majesticform.com" target="_blank">MajesticForm</a>
+        </div>
+
+    </form>
+    </div>
+
+</div>
+
+</body>
+</html>
